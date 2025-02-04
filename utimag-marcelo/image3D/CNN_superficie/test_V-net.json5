@@ -1,0 +1,12 @@
+{
+  data_path: 'C:\\Marcelo\\utimag-marcelo\\imag3D\\CNN_superficie\\pickles_test\\',
+  piezas: ['cilindro_12mm_9tx_rf_3',
+    'cilindro_12mm_9tx_rf_cercano',
+    'cilindro_35mm_9tx_rf',
+    'cilindroU_25mm_9tx_rf'],
+  model_path: 'C:\\Marcelo\\utimag-marcelo\\imag3D\\CNN_superficie\\trained_models\\9emisores\\rf\\Papermodel.h5',//vnet_temporal_multi',//vnet_nout_118_2layers_12ksize',//best_nout_e40_lr0005',//vnet_8f_4l_118pool_3318conv' //alternative_test',
+  fig_path: 'C:\\Marcelo\\utimag-marcelo\\imag3D\\CNN_superficie\\trained_models\\9emisores\\rf\\',
+  n_samples: 1000,
+  add_flip_data: false,
+  decimar: true
+}

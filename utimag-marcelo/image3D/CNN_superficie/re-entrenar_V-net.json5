@@ -1,0 +1,34 @@
+{
+  //data_path: 'C:\\MarceloLarrea\\utimag_Marcelo\\SITAU_GUIs\\Alinear_ST1_IV\\',
+  //model_save_path: 'C:\\MarceloLarrea\\utimag_Marcelo\\imag3D\\CNN_superficie\\trained_models\\9emisores\\rf\\',
+  data_path: 'C:\\Marcelo\\utimag-marcelo\\imag3D\\CNN_superficie\\pickles_train\\',
+  model_path: 'C:\\Marcelo\\utimag-marcelo\\imag3D\\CNN_superficie\\trained_models\\9emisores\\rf\\Papermodel.h5',
+  model_save_path: 'C:\\Marcelo\\utimag-marcelo\\imag3D\\CNN_superficie\\trained_models\\9emisores\\rf\\',
+  piezas: ['cilindroU_40mm_9tx_rf',
+  'cilindroU_inv_25mm_9tx_rf_1',
+  'esfera_19mm_9tx_rf',
+  'plano_base_9tx_rf',
+  'plano_base_9tx_rf_cercano',
+  'plano_fibra_9tx_rf'],
+
+  decimar: true,
+  n_samples: 1000,
+
+  //parametros de arquitectura
+  n_filters: 16,
+  n_layers: 2,
+  conv_kernel_size: [3, 3, 18],
+  conv_strides: [1, 1, 1],
+  pool_size: [1, 1, 8],
+  attention: false,
+
+  //train parametros
+  add_flip_data: 1,
+  size_limit: {'train':4000, 'val': 1000, 'test': 1000},
+  train_model: 1,
+  epochs: 20,
+  batch_size: 16,
+  steps_per_epoch: 20,
+  //kernel_regu: 'l1',
+  //bias_regu: 'l1'
+}
