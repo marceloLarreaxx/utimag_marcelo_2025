@@ -1,0 +1,18 @@
+{
+  matfile: 'C:\\Users\\ggc\\PROYECTOS\\Adquisiciones\\Array_matricial\\Alinear_array_robot\\rot_ascan_5_step0.5.mat',
+    //matfile: 'C:\\Users\\ggc\\PROYECTOS\\Adquisiciones\\Array_matricial\\Alinear_array_robot\\rotacion_scan.mat',
+  c1:  1.48,
+  fs:  40,
+  pitch: 1,
+  nel_x: 11,
+  nel_y: 11,
+  elems: [0, 10, 60, 110, 120],
+
+  peco_interval: [100, 1000],
+  umbral: 40,
+  window_num: 2,
+
+  no_usar_central: false,
+
+  umbral_weight: 700
+}
